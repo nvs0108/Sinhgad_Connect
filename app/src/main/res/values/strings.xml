@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Sinhgad Connect</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_add">Add</string>
+    <string name="title_lens">Lens</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_search">Search</string>
+
+    <!-- Password Requirements -->
+    <string name="password_requirements">Password must be at least 6 characters long, contain at least one special character (@#$%^+=), and must not include any spaces.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    
+</resources>
+
+
+    

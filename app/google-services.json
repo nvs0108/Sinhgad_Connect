@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "904660773027",
+    "project_id": "sinhgad-connect",
+    "storage_bucket": "sinhgad-connect.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904660773027:android:f6f2798574dea1cb0b3716",
+        "android_client_info": {
+          "package_name": "com.example.sinhgad_connect"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWeHSVgk9e0Nvjh_pbLUo5hk3O8Q7VYgg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

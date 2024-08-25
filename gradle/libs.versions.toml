@@ -1,0 +1,76 @@
+[versions]
+agp = "8.5.2"
+ccp = "2.6.0"
+fab = "1.6.4"
+firebaseBom = "33.2.0"
+fragmentKtx = "1.8.2"
+googleServices = "4.4.2"
+gradleVersion = "8.5.2"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+material = "1.12.0"
+activity = "1.9.1"
+constraintlayout = "2.1.4"
+design = "28.0.0"
+firebaseMlVision = "24.0.3"
+firebaseStorage = "21.0.0"
+glide = "4.14.2"
+gradle = "8.5.2"
+googleGmsGoogleServices = "4.4.2"
+firebaseDatabase = "21.0.0"
+firebaseAuth = "23.0.0"
+navigationFragmentKtx = "2.7.7"
+navigationFragmentKtxVersion = "2.7.0"
+navigationUiKtx = "2.7.7"
+navigationUiKtxVersion = "2.7.0"
+pinview = "1.4.4"
+playServicesAuth = "21.2.0"
+playServicesAuthApiPhone = "17.5.1"
+roundedimageview = "2.3.0"
+firebaseFirestore = "25.1.0"
+firebaseMlVisionVersion = "24.1.0"
+firebaseMessaging = "24.0.1"
+kotlin = "1.8.0"
+
+[libraries]
+ccp = { module = "com.hbb20:ccp", version.ref = "ccp" }
+fab = { module = "com.github.clans:fab", version.ref = "fab" }
+firebase-auth-ktx = { module = "com.google.firebase:firebase-auth-ktx" }
+firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
+firebase-firestore-ktx = { module = "com.google.firebase:firebase-firestore-ktx" }
+firebase-messaging-ktx = { module = "com.google.firebase:firebase-messaging-ktx" }
+fragment-ktx = { module = "androidx.fragment:fragment-ktx", version.ref = "fragmentKtx" }
+google-services = { module = "com.google.gms:google-services", version.ref = "googleServices" }
+gradle-v852 = { module = "com.android.tools.build:gradle", version.ref = "gradleVersion" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+compiler = { module = "com.github.bumptech.glide:compiler", version.ref = "glide" }
+design = { module = "com.android.support:design", version.ref = "design" }
+firebase-ml-vision = { module = "com.google.fitebase:firebase-ml-vision", version.ref = "firebaseMlVision" }
+glide = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }
+google-firebase-storage = { module = "com.google.firebase:firebase-storage", version.ref = "firebaseStorage" }
+gradle = { module = "com.android.tools.build:gradle", version.ref = "gradle" }
+firebase-database = { group = "com.google.firebase", name = "firebase-database", version.ref = "firebaseDatabase" }
+firebase-auth = { group = "com.google.firebase", name = "firebase-auth", version.ref = "firebaseAuth" }
+navigation-fragment-ktx = { module = "androidx.navigation:navigation-fragment-ktx", version.ref = "navigationFragmentKtx" }
+navigation-fragment-ktx-v270 = { module = "androidx.navigation:navigation-fragment-ktx", version.ref = "navigationFragmentKtxVersion" }
+navigation-ui-ktx = { module = "androidx.navigation:navigation-ui-ktx", version.ref = "navigationUiKtx" }
+navigation-ui-ktx-v270 = { module = "androidx.navigation:navigation-ui-ktx", version.ref = "navigationUiKtxVersion" }
+pinview = { module = "io.github.chaosleung:pinview", version.ref = "pinview" }
+play-services-auth = { module = "com.google.android.gms:play-services-auth", version.ref = "playServicesAuth" }
+play-services-auth-api-phone = { module = "com.google.android.gsm:play-services-auth-api-phone", version.ref = "playServicesAuthApiPhone" }
+roundedimageview = { module = "com.makeramen:roundedimageview", version.ref = "roundedimageview" }
+firebase-firestore = { group = "com.google.firebase", name = "firebase-firestore", version.ref = "firebaseFirestore" }
+google-firebase-ml-vision = { group = "com.google.firebase", name = "firebase-ml-vision", version.ref = "firebaseMlVisionVersion" }
+firebase-messaging = { group = "com.google.firebase", name = "firebase-messaging", version.ref = "firebaseMessaging" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+google-gms-google-services = { id = "com.google.gms.google-services", version.ref = "googleGmsGoogleServices" }

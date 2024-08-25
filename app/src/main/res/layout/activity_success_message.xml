@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SuccessMessage"
+    android:padding="30dp"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/general_back_icon"
+        android:padding="5dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password Updated"
+            android:textColor="@color/black"
+            android:textSize="40sp"
+            android:fontFamily="@font/muli_extrabold"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_marginTop="-80dp"
+            android:textAllCaps="true"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/password_updated_icon"
+            android:layout_margin="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your password has been successfully updated."
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:fontFamily="@font/mulilight"
+            android:textAlignment="center"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/login_button"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="LOGIN"
+            android:backgroundTint="@color/black"
+            android:textColor="@color/white"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+
+
+
+  </LinearLayout>

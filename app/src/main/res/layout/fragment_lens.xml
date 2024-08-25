@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:opencv="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".LensFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Upload or Capture Image -->
+        <Button
+            android:id="@+id/uploadButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/yellow"
+            android:text="Upload Image"
+            android:contentDescription="Upload Image Button"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/captureButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Capture Image"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/yellow"
+            android:contentDescription="Capture Image Button"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Image Preview -->
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="centerCrop"
+            android:background="@color/black"
+            android:layout_marginBottom="16dp"
+            android:visibility="gone"
+            android:contentDescription="Preview of the selected or captured image"/>
+
+        <!-- Confirmation Button -->
+        <Button
+            android:id="@+id/confirmButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confirm Image"
+            android:contentDescription="Confirm Image Button"
+            android:layout_marginBottom="16dp"
+            android:visibility="gone"/>
+
+        <!-- Result TextView -->
+        <TextView
+            android:id="@+id/resultTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Result will be displayed here"
+            android:textSize="16sp"
+            android:visibility="gone"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Progress Bar -->
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:layout_marginTop="16dp"/>
+
+    </LinearLayout>
+
+</FrameLayout>
