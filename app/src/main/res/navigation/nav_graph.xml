@@ -56,6 +56,6 @@
         android:id="@+id/announcementsFragment"
         android:name="com.example.sinhgad_connect.AnnouncementsFragment"
         android:label="Announcements"
-        tools:layout="@layout/fragment_announcements">
+        tools:layout="@layout/fragment_announcements"/>
 
 </navigation>

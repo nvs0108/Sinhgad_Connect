@@ -12,27 +12,27 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:background="@color/white"
-        android:padding="40dp"
+        android:padding="10dp"
         tools:context=".Login">
 
     <ImageView
         android:id="@+id/logo_image"
-        android:layout_width="200dp"
-        android:layout_height="250dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:src="@drawable/logo"
         android:transitionName="logo_image" />
 
-    <TextView
-        android:id="@+id/logo_name"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/bungee"
-        android:text="Hello there, Welcome Back"
-        android:textColor="#000"
-        android:textSize="40sp"
-        android:transitionName="logo_text" />
+        <TextView
+            android:id="@+id/logo_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bungee"
+            android:text="Hello there, Welcome Back"
+            android:textColor="#000"
+            android:textSize="40sp"
+            android:transitionName="logo_text" />
 
-    <TextView
+        <TextView
         android:id="@+id/slogan_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -86,7 +86,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textPassword"
-                android:drawableLeft="@drawable/baseline_lock_24"
+                android:drawableLeft="@drawable/lock_password_icon"
                 android:textColor="@color/black"
                 android:drawablePadding="10dp"/>
         </com.google.android.material.textfield.TextInputLayout>
